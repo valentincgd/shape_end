@@ -1,4 +1,4 @@
-module github.com/Johnw7789/shape
+module github.com/valentincgd/shape_end
 go 1.19
 
 require (
