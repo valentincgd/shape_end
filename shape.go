@@ -48,12 +48,12 @@ func LoadSite(page *rod.Page, address string) {
 }
 
 type ShapeHeaders struct {
-	XGyJwza5Za string `json:"X-GyJwza5Z-a"`
-	XGyJwza5Zb string `json:"X-GyJwza5Z-b"`
-	XGyJwza5Zc string `json:"X-GyJwza5Z-c"`
-	XGyJwza5Zd string `json:"X-GyJwza5Z-d"`
-	XGyJwza5Zf string `json:"X-GyJwza5Z-f"`
-	XGyJwza5Zz string `json:"X-GyJwza5Z-z"`
+	XGyJwza5Za string `json:"Exj5wzxnuf-A"`
+	XGyJwza5Zb string `json:"Exj5wzxnuf-B"`
+	XGyJwza5Zc string `json:"Exj5wzxnuf-C"`
+	XGyJwza5Zd string `json:"Exj5wzxnuf-D"`
+	XGyJwza5Zf string `json:"Exj5wzxnuf-F"`
+	XGyJwza5Zz string `json:"Exj5wzxnuf-Z"`
 }
 
 type ShapeHarvester struct {
@@ -115,22 +115,22 @@ func (harvester *ShapeHarvester) InitializeHijacking() {
 				ctx.Response.Fail(proto.NetworkErrorReasonBlockedByClient)
 				for key, value := range ctx.Request.Headers() {
 					switch key {
-					case "X-GyJwza5Z-a":
+					case "Exj5wzxnuf-A":
 						harvester.Headers.XGyJwza5Za = value.String()
 
-					case "X-GyJwza5Z-b":
+					case "Exj5wzxnuf-B":
 						harvester.Headers.XGyJwza5Zb = value.String()
 
-					case "X-GyJwza5Z-c":
+					case "Exj5wzxnuf-C":
 						harvester.Headers.XGyJwza5Zc = value.String()
 
-					case "X-GyJwza5Z-d":
+					case "Exj5wzxnuf-D":
 						harvester.Headers.XGyJwza5Zd = value.String()
 
-					case "X-GyJwza5Z-f":
+					case "Exj5wzxnuf-F":
 						harvester.Headers.XGyJwza5Zf = value.String()
 
-					case "X-GyJwza5Z-z":
+					case "Exj5wzxnuf-Z":
 						harvester.Headers.XGyJwza5Zz = value.String()
 					}
 				}
